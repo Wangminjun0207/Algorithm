@@ -8,8 +8,13 @@ int partition(int *p, int left, int right)
     {
         if(p[i] < p[pivot])
         {
-            swap(p, i, index);
-            index++;
+            if(p[i] != p[index])
+            {
+                swap(p, i, index);
+                index++;
+            }
+            else
+                index++;
         }
     }
     swap(p, pivot, index-1);
