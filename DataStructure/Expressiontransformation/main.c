@@ -64,7 +64,7 @@ void exTransform(char *optr, int *_top)
     while(ch!='#' || get_top(optr,_top)!='#') // 读到结束符或者栈空退出
     {
         // 如果不是运算符就输出
-        if(ch!='+' && ch!='-' && ch!='*' && ch!='/' && ch!='(' && ch!=')')
+        if(ch!='+' && ch!='-' && ch!='*' && ch!='/' && ch!='(' && ch!=')' && ch!='#')
         {
             putchar(ch);
             ch = getchar(); // 接着读下一位
