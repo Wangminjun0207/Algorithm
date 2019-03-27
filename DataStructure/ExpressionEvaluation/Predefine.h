@@ -1,7 +1,8 @@
 #ifndef _PREDEFINE_H
 #define _PREDEFINE_H 1
+
 // **********操作符处理函数***********
-// 元素退栈
+// 操作符元素退栈
 char pop(char *optr, int *_top)
 {
     char ch = optr[*_top];
@@ -9,14 +10,14 @@ char pop(char *optr, int *_top)
     return ch;
 }
 
-// 元素进栈
+// 操作符元素进栈
 void push(char *optr, char ch, int *_top)
 {
    (*_top)++;
     optr[*_top] = ch;
 }
 
-// 获取栈顶元素
+// 获取操作符栈顶元素
 char get_top(char *optr, int *_top)
 {
     return optr[*_top];
@@ -24,7 +25,7 @@ char get_top(char *optr, int *_top)
 // **********操作符处理函数***********
 
 // **********操作数处理函数***********
-// 元素退栈
+// 操作数元素退栈
 int pop_number(int *opnd, int *top)
 {
     int number = opnd[*top];
@@ -32,14 +33,14 @@ int pop_number(int *opnd, int *top)
     return number;
 }
 
-// 元素进栈
+// 操作数元素进栈
 void push_number(int *opnd, int number, int *top)
 {
    (*top)++;
     opnd[*top] = number;
 }
 
-// 获取栈顶元素
+// 获取操作数栈顶元素
 int get_top_number(int *opnd, int *top)
 {
     return opnd[*top];
@@ -47,7 +48,7 @@ int get_top_number(int *opnd, int *top)
 // **********操作数处理函数***********
 
 
-// 栈中运算符转化
+// 栈中运算符优先级转化
 int ispTransform(char c)
 {
     switch(c)
@@ -79,7 +80,7 @@ int calculate(int *opnd,int *top,char ch)
     }
     return result;
 }
-// 栈外运算符转化
+// 栈外运算符优先级转化
 int icpTransform(char c)
 {
     switch(c)
@@ -95,7 +96,7 @@ int icpTransform(char c)
     }
 }
 
-// 中缀表达式转化为后缀表达式
+// 中缀表达式转化为后缀表达式再求值
 void exTransform(char *optr,int *opnd, int *_top, int *top)
 {
     char ch1;
@@ -132,6 +133,5 @@ void exTransform(char *optr,int *opnd, int *_top, int *top)
                 }
         }
     }
-
 }
 #endif // _PREDEFINE_H
