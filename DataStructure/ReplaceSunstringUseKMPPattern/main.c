@@ -20,7 +20,7 @@ int main()
 	if(count>0)
 	{
 		printf("s :%s\n",s);
-		printf("count:%d",count);
+		printf("count:%d\n",count);
 	}
 	return 0;
 }

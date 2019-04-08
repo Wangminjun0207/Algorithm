@@ -6,7 +6,7 @@ int index_kmp(char *s, char *t, char *p, int nextval[])
 	int count = 0;
 	while(s[i])
 	{
-		while(s[i]&&t[j])
+		while(s[i]&&(j==-1||t[j]))
 		{
 			if(j==-1 || s[i]==t[j])
 			{
@@ -16,6 +16,7 @@ int index_kmp(char *s, char *t, char *p, int nextval[])
 			else
 				j = nextval[j];
 		}
+		// 如果找到计数器自增并替换
 		if(!t[j])
 		{
 			count++;
