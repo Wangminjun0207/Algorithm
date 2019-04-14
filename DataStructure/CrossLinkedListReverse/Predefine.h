@@ -11,5 +11,4 @@ typedef struct node
     ElemTp data;         // 节点数据
     struct node *right,*down; // 行指针、列指针
 }OLNode, *OLink;
-// 用来记录删除节点的行，避免每次从头开始删除
 #endif // _PREDEFINE_H_
