@@ -2,7 +2,7 @@
 extern OLink init(FILE *file);
 extern int insert(OLink h, int i, int j, ElemTp data);
 extern void print(OLink h,FILE *fp);
-extern int reverse(OLink h);
+extern OLink reverse(OLink h);
 // 代替主函数执行所有操作
 void operat()
 {
@@ -15,7 +15,7 @@ void operat()
     }
     OLink h = init(file);  // 从文件读入数据初始化矩阵链表
 
-    int count = h->data; // 存储矩阵中元素非零的个数
+    int count = h->data;  // 存储矩阵中元素非零的个数
     /***************************************************
      下面一段代码也可改为：
      OLink s;
@@ -37,7 +37,7 @@ void operat()
         --count; // 相对于count--效率较高
     }
     fclose(file);  // 关闭文件
-
+    h = reverse(h); //进行矩阵转置
     // 打开文件，如果打开失败退出程序
     if((file = fopen("reverse_data.txt","w"))==NULL)
     {

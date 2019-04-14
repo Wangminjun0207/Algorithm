@@ -14,6 +14,7 @@ void print(OLink h,FILE *fp)
             p = p->right;
         }
    }
+
    fprintf(fp,"FUNCTION:%s\nDATE:%s\nTIME:%s\n"\
            ,__FUNCTION__,__DATE__,__TIME__);
 }

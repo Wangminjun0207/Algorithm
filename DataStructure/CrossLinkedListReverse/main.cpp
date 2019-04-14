@@ -8,6 +8,7 @@
 
 #include "Predefine.h"
 extern void operat();
+int g_OLinkLine = 0;
 int main(int argv, char **argc)
 {
     operat();
