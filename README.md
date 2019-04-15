@@ -5,7 +5,7 @@
 test | test | test | test | test
 ### DataStructure
 
-* ArrayMerger                                数组归并算法
+ * ArrayMerger                                数组归并算法
      * ArrayMerger.cbp
      * display.c
      * initiate.c
