@@ -14,10 +14,10 @@ test | test | test | test | test
      * merger.c
      * predefine.h
      
-    * BinaryTreeHeight
-     BinaryTreeHeight.cbp
-     BinaryTreeHeight.cpp
-     CreateBinaryTree.cpp
+BinaryTreeHeight
+     * BinaryTreeHeight.cbp
+        * BinaryTreeHeight.cpp
+            * CreateBinaryTree.cpp
      main.cpp
      Predefine.h
      
