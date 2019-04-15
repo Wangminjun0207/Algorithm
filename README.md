@@ -1,14 +1,14 @@
 # Algorithm  
 ### DataStructure
 
-ArrayMerger
-     ArrayMerger.cbp
-     display.c
-     initiate.c
-     insert.c
-     main.c
-     merger.c
-     predefine.h
+* ArrayMerger
+     * ArrayMerger.cbp
+     * display.c
+     * initiate.c
+     * insert.c
+     * main.c
+     * merger.c
+     * predefine.h
      
 BinaryTreeHeight
      BinaryTreeHeight.cbp
@@ -160,7 +160,7 @@ TestCodeBlocks
       reverse.c
       sort.c
       TestCodeBlocks.cbp   
-```java
+```python
 printf("hello world!\n);
 printf("hello world!\n);
 printf("hello world!\n);
