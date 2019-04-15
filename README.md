@@ -48,6 +48,7 @@ test | test | test | test | test | test
 * 520DetectCapitalUse.c
 * 575DistributeCandies.c
 
+### [PrinciplesOfComputerComposition]()
 ### 后记
 
 ```
