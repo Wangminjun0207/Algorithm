@@ -1,19 +1,19 @@
 # Algorithm  
 ### DataStructure
 * ArrayMerger
-     * display.c
-     * initiate.c
-     * insert.c
-     * main.c
-     * merger.c
-     * predefine.h
+ * display.c
+ * initiate.c
+ * insert.c
+ * main.c
+ * merger.c
+ * predefine.h
      
 * BinaryTreeHeight
-     * BinaryTreeHeight.cbp
-     * BinaryTreeHeight.cpp
-     * CreateBinaryTree.cpp
-     * main.cpp
-     * Predefine.h
+  * BinaryTreeHeight.cbp
+  * BinaryTreeHeight.cpp
+  * CreateBinaryTree.cpp
+  * main.cpp
+  * Predefine.h
      
 * BinaryTreeMultipleAlgorithm
     * BinaryTreeMultipleAlgorithm.cbp
