@@ -1,6 +1,6 @@
 # Algorithm  
 
-DataStcructure | 计算机组成原理 | 算法分析与设计 | LeetCode | 剑指Offer
+数据结构 | 计算机组成原理 | 算法分析与设计 | LeetCode | 剑指Offer
 :-------: | :------: | :-----: | :----: | :-----:
 test | test | test | test | test
 
@@ -207,6 +207,8 @@ test | test | test | test | test
 * 507CheckPerfectNumber.c
 * 520DetectCapitalUse.c
 * 575DistributeCandies.c
+
+### 后记
 
 ```
 System.out.println("点个赞吧！");
