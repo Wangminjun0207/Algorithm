@@ -1,4 +1,5 @@
 # Algorithm  
+## DataStructure
 * ArrayMerger
      * display.c
      * initiate.c
