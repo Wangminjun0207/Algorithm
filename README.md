@@ -6,7 +6,7 @@
 
 ### [DataStructure](https://github.com/Wangminjun0207/Algorithm/tree/master/DataStructure)
 ***
-* ArrayMerger                有序数组的归并
+* ArrayMerger有序数组的归并
 * BinaryTreeHeight  求二叉树高度
 * BinaryTreeMultipleAlgorithm  关于二叉树的多种算法   
 * CirculationLinkChangeProperty  将单向循环链表改为双向循环链表
