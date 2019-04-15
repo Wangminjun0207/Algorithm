@@ -1,5 +1,5 @@
 # Algorithm  
-## DataStructure
+### DataStructure
 * ArrayMerger
      * display.c
      * initiate.c
@@ -8,23 +8,22 @@
      * merger.c
      * predefine.h
      
-BinaryTreeHeight
-     BinaryTreeHeight.cbp
-     BinaryTreeHeight.cpp
-     CreateBinaryTree.cpp
-     main.cpp
-     Predefine.h
+* BinaryTreeHeight
+     * BinaryTreeHeight.cbp
+     * BinaryTreeHeight.cpp
+     * CreateBinaryTree.cpp
+     * main.cpp
+     * Predefine.h
      
-BinaryTreeMultipleAlgorithm
-    BinaryTreeMultipleAlgorithm.cbp
-    BinaryTreeMultipleAlgorithm.depend
-    BinaryTreeMultipleAlgorithm.layout
-    CalcuLeafCount.cpp
-    CreateBinaryTree.cpp
-    main.cpp
-    Predefine.h
- 
-             
+* BinaryTreeMultipleAlgorithm
+    * BinaryTreeMultipleAlgorithm.cbp
+    * BinaryTreeMultipleAlgorithm.depend
+    * BinaryTreeMultipleAlgorithm.layout
+    * CalcuLeafCount.cpp
+    * CreateBinaryTree.cpp
+    * main.cpp
+    * Predefine.h
+          
 CirculationLinkChangeProperty
      CirculationLinkDelNode.cbp
      Display.c
