@@ -208,9 +208,14 @@ test | test | test | test | test
 * 520DetectCapitalUse.c
 * 575DistributeCandies.c
 
-```python
-printf("hello world!\n);
-printf("hello world!\n);
-printf("hello world!\n);
 ```
-![乔布斯](https://github.com/Wangminjun0207/Algorithm/blob/master/picture/%E4%B9%94%E5%B8%83%E6%96%AF.jpeg "乔布斯")
+System.out.println("点个赞吧！");
+console.log("点个赞吧！");
+print("点个赞吧！");
+printf("点个赞吧！\n");
+cout << "点个赞吧！" << endl;
+Console.WriteLine("点个赞吧！");
+Response.Write("点个赞吧！");
+alert("点个赞吧！")
+echo "点个赞吧！"
+```
