@@ -5,7 +5,7 @@
 test | test | test | test | test
 ### DataStructure
 
-* ArrayMerger
+* ArrayMerger                                数组归并算法
      * ArrayMerger.cbp
      * display.c
      * initiate.c
@@ -16,19 +16,19 @@ test | test | test | test | test
      
 * BinaryTreeHeight
      * BinaryTreeHeight.cbp
-        * BinaryTreeHeight.cpp
-            * CreateBinaryTree.cpp
-     main.cpp
-     Predefine.h
+     * BinaryTreeHeight.cpp
+     * CreateBinaryTree.cpp
+     * main.cpp
+     * Predefine.h
      
-BinaryTreeMultipleAlgorithm
-     BinaryTreeMultipleAlgorithm.cbp
-     BinaryTreeMultipleAlgorithm.depend
-     BinaryTreeMultipleAlgorithm.layout
-     CalcuLeafCount.cpp
-     CreateBinaryTree.cpp
-     main.cpp
-     Predefine.h
+* BinaryTreeMultipleAlgorithm
+     * BinaryTreeMultipleAlgorithm.cbp
+     * BinaryTreeMultipleAlgorithm.depend
+     * BinaryTreeMultipleAlgorithm.layout
+     * CalcuLeafCount.cpp
+     * CreateBinaryTree.cpp
+     * main.cpp
+     * Predefine.h
           
 CirculationLinkChangeProperty
      CirculationLinkDelNode.cbp
