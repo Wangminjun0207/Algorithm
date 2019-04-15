@@ -14,7 +14,7 @@ test | test | test | test | test
      * merger.c
      * predefine.h
      
-BinaryTreeHeight
+    * BinaryTreeHeight
      BinaryTreeHeight.cbp
      BinaryTreeHeight.cpp
      CreateBinaryTree.cpp
