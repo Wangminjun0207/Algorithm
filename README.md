@@ -39,7 +39,7 @@
 * QuickSort 快速排序算法
       
 ### [LeetCode](https://github.com/Wangminjun0207/Algorithm/tree/master/LeetCode)
-##### LeetCode个人题解
+
 * 1TwoSum.c
 * 2TwoNumbersAdd.c
 * 326IsPowerOfThree.c
@@ -49,6 +49,7 @@
 * 575DistributeCandies.c
 
 ### [PrinciplesOfComputerComposition](https://github.com/Wangminjun0207/Algorithm/tree/master/PrinciplesOfComputerComposition)
+
 * homework1.cpp
 * homework2.cpp
 * homework4.c
