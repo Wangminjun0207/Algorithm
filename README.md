@@ -2,7 +2,7 @@
 
 数据结构 | 计算机组成原理 | 算法分析与设计 | LeetCode | 剑指Offer | 后记
 :-------: | :------: | :-----: | :----: | :-----: | :----:
-[DataStructure](https://github.com/Wangminjun0207/Algorithm/tree/master/DataStructure) | [PrinciplesOfComputerComposition](https://github.com/Wangminjun0207/Algorithm/tree/master/PrinciplesOfComputerComposition) | [AlgorithmAnalysisAndDesign](https://github.com/Wangminjun0207/Algorithm/tree/master/AlgorithmAnalysisAndDesign) | [<div align=center><img width="20" height="20" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>](https://github.com/Wangminjun0207/Algorithm/tree/master/LeetCode) | test | 后记
+[DataStructure](https://github.com/Wangminjun0207/Algorithm/tree/master/DataStructure) | [PrinciplesOfComputerComposition](https://github.com/Wangminjun0207/Algorithm/tree/master/PrinciplesOfComputerComposition) | [AlgorithmAnalysisAndDesign](https://github.com/Wangminjun0207/Algorithm/tree/master/AlgorithmAnalysisAndDesign) | [<div align=center><img width="20" height="20" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>](https://github.com/Wangminjun0207/Algorithm/tree/master/LeetCode) | test | <div align=center><img width="20" height="20" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>
 
 ## DataStructure
 
@@ -54,7 +54,7 @@
 * homework2.cpp
 * homework4.c
     
-## 后记
+## <div align=center><img width="20" height="20" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>后记
 
 ```
 System.out.println("点个赞吧！");
