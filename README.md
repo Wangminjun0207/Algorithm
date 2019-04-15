@@ -1,8 +1,8 @@
 # Algorithm  
-```
+
 DataStcructure | 计算机组成原理 | 算法分析与设计 | LeetCode | 剑指Offer
 :-------: | :------: | :-----: | :----: | :-----:
-test | test | test | test | test```
+test | test | test | test | test
 
 ### [DataStructure](https://github.com/Wangminjun0207/Algorithm/tree/master/DataStructure)
 
@@ -197,6 +197,17 @@ test | test | test | test | test```
       * QuickSort.cbp
       * Sort.c
       * Swap.c
+      
+### [LeetCode](https://github.com/Wangminjun0207/Algorithm/tree/master/LeetCode)
+
+* 1TwoSum.c
+* 2TwoNumbersAdd.c
+* 326IsPowerOfThree.c
+* 344ReverseString.c
+* 507CheckPerfectNumber.c
+* 520DetectCapitalUse.c
+* 575DistributeCandies.c
+
 ```python
 printf("hello world!\n);
 printf("hello world!\n);
