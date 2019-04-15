@@ -2,11 +2,11 @@
 
 数据结构 | 计算机组成原理 | 算法分析与设计 | LeetCode | 剑指Offer | 后记
 :-------: | :------: | :-----: | :----: | :-----: | :----:
-test | test | test | test | test | test
+[DataStructure](https://github.com/Wangminjun0207/Algorithm/tree/master/DataStructure) | [PrinciplesOfComputerComposition](https://github.com/Wangminjun0207/Algorithm/tree/master/PrinciplesOfComputerComposition) | [AlgorithmAnalysisAndDesign](https://github.com/Wangminjun0207/Algorithm/tree/master/AlgorithmAnalysisAndDesign) | [<div align=center><img width="20" height="20" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>](https://github.com/Wangminjun0207/Algorithm/tree/master/LeetCode) | test | test
 
-### [DataStructure](https://github.com/Wangminjun0207/Algorithm/tree/master/DataStructure)
+## DataStructure
 
-* ArrayMerger   有序数组的归并
+* ArrayMerger 有序数组的归并
 * BinaryTreeHeight  求二叉树高度
 * BinaryTreeMultipleAlgorithm  关于二叉树的多种算法   
 * CirculationLinkChangeProperty  将单向循环链表改为双向循环链表
@@ -29,8 +29,8 @@ test | test | test | test | test | test
 * ReplaceSunstringUseKMPPattern 使用改进KMP算法替换主串中的子字符串
 * ReverseLink 实现顺序表的就地逆置，即利用原表的存储空间将线性表逆置
 * TestCodeBlocks （用来学习code::blocks的练习代码）
-     
-### [AlgorithmAnalysisAndDesign](https://github.com/Wangminjun0207/Algorithm/tree/master/AlgorithmAnalysisAndDesign)
+  
+## AlgorithmAnalysisAndDesign
 
 * BegReverseOrderCount   用分治法求逆序对
 * Fibfunction  求斐波那契数列
@@ -38,8 +38,8 @@ test | test | test | test | test | test
 * IsSameBinaryTree 判断是否两个二叉树相同
 * QuickSort 快速排序算法
       
-### [LeetCode](https://github.com/Wangminjun0207/Algorithm/tree/master/LeetCode)
-##### LeetCode个人题解
+## LeetCode
+
 * 1TwoSum.c
 * 2TwoNumbersAdd.c
 * 326IsPowerOfThree.c
@@ -48,7 +48,13 @@ test | test | test | test | test | test
 * 520DetectCapitalUse.c
 * 575DistributeCandies.c
 
-### 后记
+## PrinciplesOfComputerComposition
+
+* homework1.cpp
+* homework2.cpp
+* homework4.c
+    
+## 后记
 
 ```
 System.out.println("点个赞吧！");
