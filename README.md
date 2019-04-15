@@ -1,28 +1,30 @@
 # Algorithm  
 ### DataStructure
-1. ArrayMerger
-     * display.c
-     * initiate.c
-     * insert.c
-     * main.c
-     * merger.c
-     * predefine.h
+
+ArrayMerger
+     ArrayMerger.cbp
+     display.c
+     initiate.c
+     insert.c
+     main.c
+     merger.c
+     predefine.h
      
-* BinaryTreeHeight
-  * BinaryTreeHeight.cbp
-  * BinaryTreeHeight.cpp
-  * CreateBinaryTree.cpp
-  * main.cpp
-  * Predefine.h
+BinaryTreeHeight
+     BinaryTreeHeight.cbp
+     BinaryTreeHeight.cpp
+     CreateBinaryTree.cpp
+     main.cpp
+     Predefine.h
      
-* BinaryTreeMultipleAlgorithm
-    * BinaryTreeMultipleAlgorithm.cbp
-    * BinaryTreeMultipleAlgorithm.depend
-    * BinaryTreeMultipleAlgorithm.layout
-    * CalcuLeafCount.cpp
-    * CreateBinaryTree.cpp
-    * main.cpp
-    * Predefine.h
+BinaryTreeMultipleAlgorithm
+     BinaryTreeMultipleAlgorithm.cbp
+     BinaryTreeMultipleAlgorithm.depend
+     BinaryTreeMultipleAlgorithm.layout
+     CalcuLeafCount.cpp
+     CreateBinaryTree.cpp
+     main.cpp
+     Predefine.h
           
 CirculationLinkChangeProperty
      CirculationLinkDelNode.cbp
@@ -151,11 +153,10 @@ ReverseLink
      
 TestCodeBlocks
       create.c
-        display.c
-        main.c
-        makefile
-        predefine.h
-        reverse.c
-        sort.c
-        TestCodeBlocks.cbp
-        
+      display.c
+      main.c
+      makefile
+      predefine.h
+      reverse.c
+      sort.c
+      TestCodeBlocks.cbp
