@@ -6,29 +6,29 @@ test | test | test | test | test | test
 
 ### [DataStructure](https://github.com/Wangminjun0207/Algorithm/tree/master/DataStructure)
 
-* ArrayMerger   
-* BinaryTreeHeight  
-* BinaryTreeMultipleAlgorithm     
-* CirculationLinkChangeProperty  
-* CirculationLinkDelNode 
-* CirculationQueue 
-* CrossLinkedListReverse
-* DeleteNode
-* DeleteSameNode
-* ExpressionEvaluation 
-* Expressiontransformation
-* FindSaddlePoint
-* LinkedListMerger
+* ArrayMerger   有序数组的归并
+* BinaryTreeHeight  求二叉树高度
+* BinaryTreeMultipleAlgorithm  关于二叉树的多种算法   
+* CirculationLinkChangeProperty  将单向循环链表改为双向循环链表
+* CirculationLinkDelNode 删除指针s所指结点的前驱结点
+* CirculationQueue 实现循环队列的初始化、出队一个或多个元素功能
+* CrossLinkedListReverse 十字链表存储的矩阵进行转置
+* DeleteNode 删除
+* DeleteSameNode  删除表中所有值大于mink和小于maxk的元素并释放节点
+* ExpressionEvaluation 中缀表达式求值
+* Expressiontransformation  中缀表达式改为后缀表达式
+* FindSaddlePoint 寻找矩阵中所有的马鞍点
+* LinkedListMerger  两个有序链表的归并
 * LinkMergerAndReverse 将有序排列的A表和B表归并成一个按照元素递减有序排列的线性表C
-* NextArrayValue 
-* NextvalArrayValue
-* OutputDigits
-* PreorderCreatBinaryTree
-* RecursiveAlgorithm 
-* RecursiveAlgorithm_01
-* ReplaceSunstringUseKMPPattern
-* ReverseLink
-* TestCodeBlocks 
+* NextArrayValue 求next数组值（KMP算法）
+* NextvalArrayValue  求nextval数组值（改进KMP算法）
+* OutputDigits 将整数拆分之后输出各位数字
+* PreorderCreatBinaryTree 先序建立二叉树
+* RecursiveAlgorithm  递归算法求数学表达式
+* RecursiveAlgorithm_01  递归算法求数学表达式
+* ReplaceSunstringUseKMPPattern 使用改进KMP算法替换主串中的子字符串
+* ReverseLink 实现顺序表的就地逆置，即利用原表的存储空间将线性表逆置
+* TestCodeBlocks （用来学习code::blocks的练习代码）
      
 ### [AlgorithmAnalysisAndDesign](https://github.com/Wangminjun0207/Algorithm/tree/master/AlgorithmAnalysisAndDesign)
 
