@@ -6,8 +6,7 @@ test | test | test | test | test | test
 
 ### [DataStructure](https://github.com/Wangminjun0207/Algorithm/tree/master/DataStructure)
 
-* ArrayMerger  
-     
+* ArrayMerger   
 * BinaryTreeHeight
      * BinaryTreeHeight.cbp
      * BinaryTreeHeight.cpp
