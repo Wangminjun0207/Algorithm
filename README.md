@@ -1,7 +1,7 @@
 # Algorithm  
 
 数据结构 | 计算机组成原理 | 算法分析与设计 | LeetCode | 剑指Offer | 后记
-:-------: | :------: | :-----: | :----: | :-----: | :----：
+:-------: | :------: | :-----: | :----: | :-----: | :----:
 test | test | test | test | test | test
 
 ### [DataStructure](https://github.com/Wangminjun0207/Algorithm/tree/master/DataStructure)
