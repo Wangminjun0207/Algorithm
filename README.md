@@ -13,8 +13,8 @@ test | test | test | test | test | test
 * CirculationLinkDelNode 删除指针s所指结点的前驱结点
 * CirculationQueue 实现循环队列的初始化、出队一个或多个元素功能
 * CrossLinkedListReverse 十字链表存储的矩阵进行转置
-* DeleteNode 删除
-* DeleteSameNode  删除表中所有值大于mink和小于maxk的元素并释放节点
+* DeleteNode 删除表中所有值大于mink和小于maxk的元素并释放节点
+* DeleteSameNode  删除链表中数值相同的节点
 * ExpressionEvaluation 中缀表达式求值
 * Expressiontransformation  中缀表达式改为后缀表达式
 * FindSaddlePoint 寻找矩阵中所有的马鞍点
