@@ -31,143 +31,142 @@ test | test | test | test | test
      * main.cpp
      * Predefine.h
           
-CirculationLinkChangeProperty
-     CirculationLinkDelNode.cbp
-     Display.c
-     main.c
-     OppositeDisplay.c
-     Predefine.h
-     SetPrior.c
+* CirculationLinkChangeProperty
+     * CirculationLinkDelNode.cbp
+     * Display.c
+     * main.c
+     * OppositeDisplay.c
+     * Predefine.h
+     * SetPrior.c
      
-CirculationLinkDelNode
-     CirculationLinkDelNode.cbp
-     DelNode.c
-     Display.c
-     main.c
-     Predefine.h
+* CirculationLinkDelNode
+     * CirculationLinkDelNode.cbp
+     * DelNode.c
+     * Display.c
+     * main.c
+     * Predefine.h
      
-CirculationQueue
-     CheckEmpty.c
-     CheckFull.c
-     CirculationQueue.cbp
-     Initialaze.c
-     main.c
-     PopQueue.c
-     Predefine.h
-     PushQueue.c
+* CirculationQueue
+     * CheckEmpty.c
+     * CheckFull.c
+     * CirculationQueue.cbp
+     * Initialaze.c
+     * main.c
+     * PopQueue.c
+     * Predefine.h
+     * PushQueue.c
      
-CrossLinkedListReverse
-     CreateLinkedList.cpp
-     CrossLinkedListReverse.cbp
-     DeleteNode.cpp
-     InsertNode.cpp
-     InsertRevMatrix.cpp
-     main.cpp
-     operator.cpp
-     origin_data.txt
-     Predefine.h
-     PrintLinkedList.cpp
-     ReverseMatrix.cpp
-     reverse_data.txt
+* CrossLinkedListReverse
+     * CreateLinkedList.cpp
+     * CrossLinkedListReverse.cbp
+     * DeleteNode.cpp
+     * InsertNode.cpp
+     * InsertRevMatrix.cpp
+     * main.cpp
+     * operator.cpp
+     * origin_data.txt
+     * Predefine.h
+     * PrintLinkedList.cpp
+     * ReverseMatrix.cpp
      
-DeleteNode
-     DeleteNode.cbp
-     DelNode.c
-     Display.c
-     main.c
-     Predefine.h
+* DeleteNode
+     * DeleteNode.cbp
+     * DelNode.c
+     * Display.c
+     * main.c
+     * Predefine.h
      
-DeleteSameNode
-     DeleteNode.cbp
-     DeleteNode.layout
-     DelNode.c
-     Display.c
-     main.c
-     Predefine.h
+* DeleteSameNode
+     * DeleteNode.cbp
+     * DeleteNode.layout
+     * DelNode.c
+     * Display.c
+     * main.c
+     * Predefine.h
      
-ExpressionEvaluation
-     main.c
-     makefile
-     Predefine.h
+* ExpressionEvaluation
+     * main.c
+     * makefile
+     * Predefine.h
      
-Expressiontransformation
-     Expressiontransformation.cbp
-     main.c
+* Expressiontransformation
+     * Expressiontransformation.cbp
+     * main.c
      
-FindSaddlePoint
-     FindSaddlePoint.cbp
-     FindSaddlePoint.cpp
-     main.cpp
+* FindSaddlePoint
+     * FindSaddlePoint.cbp
+     * FindSaddlePoint.cpp
+     * main.cpp
      
-LinkedListMerger
-     createLink.c
-     createNode.c
-     displayLink.c
-     main.c
-     mergerLink.c
-     Predefine.h
+* LinkedListMerger
+     * createLink.c
+     * createNode.c
+     * displayLink.c
+     * main.c
+     * mergerLink.c
+     * Predefine.h
      
-LinkMergerAndReverse
-     createLink.c
-     createNode.c
-     displayLink.c
-     LinkMergerAndReverse.cbp
-     main.c
-     mergerLink.c
-     Predefine.h
+* LinkMergerAndReverse
+     * createLink.c
+     * createNode.c
+     * displayLink.c
+     * LinkMergerAndReverse.cbp
+     * main.c
+     * mergerLink.c
+     * Predefine.h
      
-NextArrayValue
-     main.cpp
+* NextArrayValue
+     * main.cpp
      
-NextvalArrayValue
-     main.c
+* NextvalArrayValue
+     * main.c
      
-OutputDigits
-     main.cpp
-     OutputDigits.cbp
+* OutputDigits
+     * main.cpp
+     * OutputDigits.cbp
      
-PreorderCreatBinaryTree
-     CreateBinaryTree.cpp
-     main.cpp
-     Predefine.h
-     PreorderBinaryTree.cpp
-     PreorderCreatBinaryTree.cbp
-     VisitBinaryTree.cpp
+* PreorderCreatBinaryTree
+     * CreateBinaryTree.cpp
+     * main.cpp
+     * Predefine.h
+     * PreorderBinaryTree.cpp
+     * PreorderCreatBinaryTree.cbp
+     * VisitBinaryTree.cpp
      
-RecursiveAlgorithm
-     main.cpp
-     RecursiveAlgorithm.cbp
+* RecursiveAlgorithm
+     * main.cpp
+     * RecursiveAlgorithm.cbp
      
-RecursiveAlgorithm_01
-     main.cpp
-     RecursiveAlgorithm.cbp
+* RecursiveAlgorithm_01
+     * main.cpp
+     * RecursiveAlgorithm.cbp
      
-ReplaceSunstringUseKMPPattern
-     getNextval.c
-     kmpReplace.c
-     main.c
-     makefile
-     test.cbp
+* ReplaceSunstringUseKMPPattern
+     * getNextval.c
+     * kmpReplace.c
+     * main.c
+     * makefile
+     * test.cbp
      
-ReverseLink
-     DeleteNode.cbp
-     Display.c
-     main.c
-     Predefine.h
-     Reverse.c
+* ReverseLink
+     * DeleteNode.cbp
+     * Display.c
+     * main.c
+     * Predefine.h
+     * Reverse.c
      
-TestCodeBlocks
-      create.c
-      display.c
-      main.c
-      makefile
-      predefine.h
-      reverse.c
-      sort.c
-      TestCodeBlocks.cbp   
+* TestCodeBlocks
+     * create.c
+     * display.c
+     * main.c
+     * makefile
+     * predefine.h
+     * reverse.c
+     * sort.c
+     * TestCodeBlocks.cbp   
 ```python
 printf("hello world!\n);
 printf("hello world!\n);
 printf("hello world!\n);
 ```
-![logo](https://github.com/Wangminjun0207/Algorithm/blob/master/picture/%E4%B9%94%E5%B8%83%E6%96%AF.jpeg "乔布斯")
+![乔布斯](https://github.com/Wangminjun0207/Algorithm/blob/master/picture/%E4%B9%94%E5%B8%83%E6%96%AF.jpeg "乔布斯")
