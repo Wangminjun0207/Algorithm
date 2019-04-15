@@ -32,15 +32,14 @@ test | test | test | test | test | test
      
 ### [AlgorithmAnalysisAndDesign](https://github.com/Wangminjun0207/Algorithm/tree/master/AlgorithmAnalysisAndDesign)
 
-* BegReverseOrderCount  
-* Fibfunction  
-* GrayCode  
-* IsSameBinaryTree
-* MergeSort
-* QuickSort
+* BegReverseOrderCount   用分治法求逆序对
+* Fibfunction  求斐波那契数列
+* GrayCode  分治法实现格码
+* IsSameBinaryTree 判断是否两个二叉树相同
+* QuickSort 快速排序算法
       
 ### [LeetCode](https://github.com/Wangminjun0207/Algorithm/tree/master/LeetCode)
-
+##### LeetCode个人题解
 * 1TwoSum.c
 * 2TwoNumbersAdd.c
 * 326IsPowerOfThree.c
