@@ -54,7 +54,7 @@
 * homework2.cpp
 * homework4.c
     
-## <div align=center><img width="20" height="20" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/></div>后记
+## <img width="20" height="20" src="https://github.com/HeTingwei/ReadmeLearn/blob/master/avatar1.jpg"/>后记
 
 ```
 System.out.println("点个赞吧！");
