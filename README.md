@@ -1,6 +1,6 @@
 # Algorithm  
 
-数据结构 | 计算机组成原理 | 算法分析与设计 | LeetCode | 剑指Offer | 后记
+数据结构 | 计算机组成原理 | 算法分析与设计 | LeetCode题解 | 剑指Offer算法 | 后记
 :-------: | :------: | :-----: | :----: | :-----: | :----:
 [<div align=center><img width="20" height="20" src="https://github.com/Wangminjun0207/Algorithm/blob/master/picture/timga22as5.jpg"/></div>](https://github.com/Wangminjun0207/Algorithm/tree/master/DataStructure) | [<div align=center><img width="20" height="20" src="https://github.com/Wangminjun0207/Algorithm/blob/master/picture/timg.jpg"/></div>](https://github.com/Wangminjun0207/Algorithm/tree/master/PrinciplesOfComputerComposition) | [<div align=center><img width="20" height="20" src="https://github.com/Wangminjun0207/Algorithm/blob/master/picture/220468604228997.jpg"/></div>](https://github.com/Wangminjun0207/Algorithm/tree/master/AlgorithmAnalysisAndDesign) | [<div align=center><img width="20" height="20" src="https://github.com/Wangminjun0207/Algorithm/blob/master/picture/timgda4ad4.jpg"/></div>](https://github.com/Wangminjun0207/Algorithm/tree/master/LeetCode) | [<div align=center><img width="20" height="20" src="https://github.com/Wangminjun0207/Algorithm/blob/master/picture/timgsystem.jpg"/></div>](https://www.baidu.com) |  [<div align=center><img width="20" height="20" src="https://github.com/Wangminjun0207/Algorithm/blob/master/picture/timgtst.jpg"/></div>](https://www.baidu.com)
 
