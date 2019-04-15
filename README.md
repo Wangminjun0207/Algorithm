@@ -4,8 +4,8 @@
 :-------: | :------: | :-----: | :----: | :-----: | :----:
 [DataStructure](https://github.com/Wangminjun0207/Algorithm/tree/master/DataStructure) | [PrinciplesOfComputerComposition](https://github.com/Wangminjun0207/Algorithm/tree/master/PrinciplesOfComputerComposition) | [AlgorithmAnalysisAndDesign](https://github.com/Wangminjun0207/Algorithm/tree/master/AlgorithmAnalysisAndDesign) | [LeetCode](https://github.com/Wangminjun0207/Algorithm/tree/master/LeetCode) | test | test
 
-### [DataStructure](https://github.com/Wangminjun0207/Algorithm/tree/master/DataStructure)
-***
+## [DataStructure](https://github.com/Wangminjun0207/Algorithm/tree/master/DataStructure)
+
 * ArrayMerger 有序数组的归并
 * BinaryTreeHeight  求二叉树高度
 * BinaryTreeMultipleAlgorithm  关于二叉树的多种算法   
@@ -30,16 +30,16 @@
 * ReverseLink 实现顺序表的就地逆置，即利用原表的存储空间将线性表逆置
 * TestCodeBlocks （用来学习code::blocks的练习代码）
      
-### [AlgorithmAnalysisAndDesign](https://github.com/Wangminjun0207/Algorithm/tree/master/AlgorithmAnalysisAndDesign)
-***
+## [AlgorithmAnalysisAndDesign](https://github.com/Wangminjun0207/Algorithm/tree/master/AlgorithmAnalysisAndDesign)
+
 * BegReverseOrderCount   用分治法求逆序对
 * Fibfunction  求斐波那契数列
 * GrayCode  分治法实现格码
 * IsSameBinaryTree 判断是否两个二叉树相同
 * QuickSort 快速排序算法
       
-### [LeetCode](https://github.com/Wangminjun0207/Algorithm/tree/master/LeetCode)
-***
+## [LeetCode](https://github.com/Wangminjun0207/Algorithm/tree/master/LeetCode)
+
 * 1TwoSum.c
 * 2TwoNumbersAdd.c
 * 326IsPowerOfThree.c
@@ -48,14 +48,14 @@
 * 520DetectCapitalUse.c
 * 575DistributeCandies.c
 
-### [PrinciplesOfComputerComposition](https://github.com/Wangminjun0207/Algorithm/tree/master/PrinciplesOfComputerComposition)
-***
+## [PrinciplesOfComputerComposition](https://github.com/Wangminjun0207/Algorithm/tree/master/PrinciplesOfComputerComposition)
+
 * homework1.cpp
 * homework2.cpp
 * homework4.c
     
-### 后记
-***
+## 后记
+
 ```
 System.out.println("点个赞吧！");
 console.log("点个赞吧！");
