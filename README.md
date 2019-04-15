@@ -1,12 +1,12 @@
 # Algorithm  
 ### DataStructure
 * ArrayMerger
- * display.c
- * initiate.c
- * insert.c
- * main.c
- * merger.c
- * predefine.h
+     * display.c
+     * initiate.c
+     * insert.c
+     * main.c
+     * merger.c
+     * predefine.h
      
 * BinaryTreeHeight
   * BinaryTreeHeight.cbp
