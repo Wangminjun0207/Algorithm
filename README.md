@@ -1,6 +1,6 @@
 # Algorithm  
 ### DataStructure
-* ArrayMerger
+1. ArrayMerger
      * display.c
      * initiate.c
      * insert.c
