@@ -160,7 +160,7 @@ TestCodeBlocks
       reverse.c
       sort.c
       TestCodeBlocks.cbp   
-```
+```javascript
 printf("hello world!\n);
 printf("hello world!\n);
 printf("hello world!\n);
