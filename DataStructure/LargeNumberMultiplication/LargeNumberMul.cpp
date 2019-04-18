@@ -45,7 +45,7 @@ int LargeNumberMul::print(char *str)
 int LargeNumberMul::print_result()
 {
     this->print_num(large_number_a_);
-    std::cout << " ¡Á ";
+    std::cout << " * ";
     this->print_num(large_number_b_);
     std::cout << " = ";
     this->print(mul_result_);
