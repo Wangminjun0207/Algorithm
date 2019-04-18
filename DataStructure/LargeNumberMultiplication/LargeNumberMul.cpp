@@ -1,4 +1,5 @@
 #include "LargeNumberMul.h"
+
 LargeNumberMul::LargeNumberMul()
 {
     std::cin >> large_number_a_ >> large_number_b_;
@@ -14,6 +15,23 @@ LargeNumberMul::LargeNumberMul(char *large_number_a, char *large_number_b)
     large_number_b_ = large_number_b;
     for(int i=0;i<200;i++)
         mul_result_[i] = '\0';
+}
+
+char LargeNumberMul::get_ch(char *str, int ival)
+{
+	return str[ival];
+}
+
+int LargeNumberMul::set_ch(char *str, int ival, char ch)
+{
+    str[ival] = ch;
+    return 0;
+}
+
+int LargeNumberMul::print_num(char *str)
+{
+    std::cout << str;
+    return 0;
 }
 
 // 输出计算结果字符串

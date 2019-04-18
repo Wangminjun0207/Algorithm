@@ -6,22 +6,14 @@
 class LargeNumberMul
 {
     public:
-        LargeNumberMul();
-        LargeNumberMul(char *large_number_a, char *large_number_b);
+        LargeNumberMul(); // 命令行无参数时初始化成员变量
+        LargeNumberMul(char *large_number_a, char *large_number_b);// 命令行有参数时初始化成员变量
         int mul_operator();  // 进行大数相乘
-        char get_ch(char *str, int ival){return str[ival];}
+        char get_ch(char *str, int ival); // 取字符串中的一位
         int print_result();  // 输出计算结果
-        int set_ch(char *str, int ival, char ch)
-        {
-            str[ival] = ch;
-            return 0;
-        }
-        int print_num(char *str)
-        {
-            std::cout << str;
-            return 0;
-        }
-        int print(char *str);  // 输出结果字符串
+        int set_ch(char *str, int ival, char ch);// 结果字符串中写入一位
+        int print_num(char *str);  // 输出乘数
+        int print(char *str);      // 输出结果字符串
         virtual ~LargeNumberMul();
 
     protected:
