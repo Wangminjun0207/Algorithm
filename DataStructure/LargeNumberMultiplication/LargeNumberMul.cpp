@@ -5,8 +5,6 @@ LargeNumberMul::LargeNumberMul()
     std::cin >> large_number_a_ >> large_number_b_;
     for(int i=0;i<200;i++)
         mul_result_[i] = '\0';
-    print(large_number_a_);
-    print(large_number_b_);
 }
 
 LargeNumberMul::LargeNumberMul(char *large_number_a, char *large_number_b)
