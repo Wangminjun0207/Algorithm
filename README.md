@@ -43,6 +43,7 @@
 
 * 1TwoSum.c
 * 2TwoNumbersAdd.c
+* 271RemoveElement.cpp
 * 326IsPowerOfThree.c
 * 344ReverseString.c
 * 507CheckPerfectNumber.c
