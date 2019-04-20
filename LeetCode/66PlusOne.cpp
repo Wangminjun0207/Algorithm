@@ -16,8 +16,8 @@ class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
         int ival = digits.size() - 1;
-		// 如果下面一条语句这样写，会出现下标越界，导致运算结果错误
-		// while(digits[ival]==9 && ival>=0)
+	// 如果下面一条语句这样写，会出现下标越界，导致运算结果错误
+	// while(digits[ival]==9 && ival>=0)
         while(ival>=0 && digits[ival]==9)
         {
             digits[ival] = 0;
