@@ -41,15 +41,15 @@
       
 ## LeetCode
 
-* 1TwoSum.c
-* 2TwoNumbersAdd.c
-* 66PlusOne.cpp
-* 271RemoveElement.cpp
-* 326IsPowerOfThree.c
-* 344ReverseString.c
-* 507CheckPerfectNumber.c
-* 520DetectCapitalUse.c
-* 575DistributeCandies.c
+* 1TwoSum.c 给定一个整数数组 nums 和一个目标值 target，找出和为目标值的那两个整数，并返回数组下标
+* 2TwoNumbersAdd.c 逆序存在两个数组中的数值相加
+* 66PlusOne.cpp 给存在数组中的数字加一
+* 271RemoveElement.cpp 移除数组中的指定元素，返回新数组长度
+* 326IsPowerOfThree.c 给定一个整数，写一个函数来判断它是否是 3 的幂次方
+* 344ReverseString.c 将输入的字符串反转过来
+* 507CheckPerfectNumber.c 检测是否为“完美数”
+* 520DetectCapitalUse.c 判断单词的大写使用是否正确
+* 575DistributeCandies.c 把糖果平均分给一个弟弟和一个妹妹，返回妹妹可以获得的最大糖果的种类数
 
 ## PrinciplesOfComputerComposition
 
