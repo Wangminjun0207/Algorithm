@@ -30,6 +30,7 @@
 * ReverseLink 实现顺序表的就地逆置，即利用原表的存储空间将线性表逆置
 * TestCodeBlocks （用来学习code::blocks的练习代码）
 * LargeNumberMultiplication 两个大数的乘法
+* OrderBinaryTree 使用先序、中序、后序遍历二叉树
   
 ## AlgorithmAnalysisAndDesign
 
@@ -38,6 +39,8 @@
 * GrayCode  分治法实现格码
 * IsSameBinaryTree 判断是否两个二叉树相同
 * QuickSort 快速排序算法
+* MissileInterception 使用动态规划拦截导弹算法
+* LongestIncrementalSubsequence 求最长的升序子序列
       
 ## LeetCode
 
