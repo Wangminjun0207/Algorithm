@@ -5,8 +5,8 @@ void midorder(const BiTree bt)
 {
     if(bt)
     {
-        preorder(bt->lelf_child);
+        midorder(bt->lelf_child);
 		visit(bt);
-        preorder(bt->right_child);
+        midorder(bt->right_child);
     }
 }

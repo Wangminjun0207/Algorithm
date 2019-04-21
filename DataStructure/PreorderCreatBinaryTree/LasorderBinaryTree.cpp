@@ -5,8 +5,8 @@ void lasorder(const BiTree bt)
 {
     if(bt)
     {
-        preorder(bt->lelf_child);
-        preorder(bt->right_child);
+        lasorder(bt->lelf_child);
+        lasorder(bt->right_child);
 		visit(bt);
     }
 }
