@@ -13,13 +13,14 @@ extern void lasorder(const BiTree bt);
 extern int LayerTraval(BiTree bt);
 int main()
 {
-    BiTree bt = CrtBT();
-    preorder(bt);
-    std::cout << std::endl;
+    	BiTree bt = CrtBT();
+    	preorder(bt);
+    	std::cout << std::endl;
 	midorder(bt);
 	std::cout << std::endl;
 	lasorder(bt);
-	std::cout << std::endl;
+	std::cout << std::endl;		
 	LayerTraval(bt);
-    return 0;
+	std::cout << std::endl;		
+    	return 0;
 }
