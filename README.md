@@ -56,6 +56,7 @@
 * 507CheckPerfectNumber.c 检测是否为“完美数”
 * 520DetectCapitalUse.c 判断单词的大写使用是否正确
 * 575DistributeCandies.c 把糖果平均分给一个弟弟和一个妹妹，返回妹妹可以获得的最大糖果的种类数
+* 933RecentCounter 最近的请求次数
 
 ## PrinciplesOfComputerComposition
 
