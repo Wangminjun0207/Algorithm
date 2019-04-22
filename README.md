@@ -47,6 +47,7 @@
 * 1TwoSum.c 给定一个整数数组 nums 和一个目标值 target，找出和为目标值的那两个整数，并返回数组下标
 * 2TwoNumbersAdd.c 逆序存在两个数组中的数值相加
 * 66PlusOne.cpp 给存在数组中的数字加一
+* 70ClimbStairs 每次可以爬一阶或者两阶楼梯，给出爬n阶的所有方案数目
 * 121MaxProfit.c 求得股票购买的的最大利润(C语言代码)
 * 121MaxProfit.cpp 求得股票购买的的最大利润(C++代码)
 * 271RemoveElement.cpp 移除数组中的指定元素，返回新数组长度
