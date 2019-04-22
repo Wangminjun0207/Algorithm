@@ -10,4 +10,10 @@ typedef struct node{
     struct node *lelf_child,    // 左指针
                 *right_child;   // 右指针
 }*BiTree, BiTreeNode;
+
+typedef struct Queue{
+    BiTree Node; // 数据域
+    int f; // 队头指针
+    int r; // 队尾指针
+}*BiTreeQueue, BiTreeNodeQueue;
 #endif // _PREDEFINE_H_
