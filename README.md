@@ -60,6 +60,7 @@
 * 622MyCircularQueue.cpp 设计循环队列
 * 641MyCircularDeque.cpp 双端循环队列 
 * 238ProductExceptSelf.cpp 除自身以外数组的乘积
+* 94InorderTraversal.cpp 二叉树的中序遍历
 
 ## PrinciplesOfComputerComposition
 
