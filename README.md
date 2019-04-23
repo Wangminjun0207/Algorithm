@@ -58,7 +58,8 @@
 * 575DistributeCandies.c 把糖果平均分给一个弟弟和一个妹妹，返回妹妹可以获得的最大糖果的种类数
 * 933RecentCounter.cpp 最近的请求次数
 * 622MyCircularQueue.cpp 设计循环队列
-* 641MyCircularDeque.cpp 双端循环队列
+* 641MyCircularDeque.cpp 双端循环队列 
+* 238ProductExceptSelf.cpp 除自身以外数组的乘积
 
 ## PrinciplesOfComputerComposition
 
