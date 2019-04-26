@@ -62,6 +62,7 @@
 * 238ProductExceptSelf.cpp 除自身以外数组的乘积
 * 94InorderTraversal.cpp 二叉树的中序遍历
 * 717IsOneBitCharacter 最后一个字符是否必定为一个一比特字符
+* 258AddDigits 给定一个非负整数 num，反复将各个位上的数字相加，直到结果为一位数
 
 ## PrinciplesOfComputerComposition
 
