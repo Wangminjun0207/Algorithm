@@ -48,21 +48,21 @@
 * 2TwoNumbersAdd.c 逆序存在两个数组中的数值相加
 * 66PlusOne.cpp 给存在数组中的数字加一
 * 70ClimbStairs 每次可以爬一阶或者两阶楼梯，给出爬n阶的所有方案数目
+* 94InorderTraversal.cpp 二叉树的中序遍历
 * 121MaxProfit.c 求得股票购买的的最大利润(C语言代码)
 * 121MaxProfit.cpp 求得股票购买的的最大利润(C++代码)
+* 238ProductExceptSelf.cpp 除自身以外数组的乘积
+* 258AddDigits 给定一个非负整数 num，反复将各个位上的数字相加，直到结果为一位数
 * 271RemoveElement.cpp 移除数组中的指定元素，返回新数组长度
 * 326IsPowerOfThree.c 给定一个整数，写一个函数来判断它是否是 3 的幂次方
 * 344ReverseString.c 将输入的字符串反转过来
 * 507CheckPerfectNumber.c 检测是否为“完美数”
 * 520DetectCapitalUse.c 判断单词的大写使用是否正确
 * 575DistributeCandies.c 把糖果平均分给一个弟弟和一个妹妹，返回妹妹可以获得的最大糖果的种类数
-* 933RecentCounter.cpp 最近的请求次数
 * 622MyCircularQueue.cpp 设计循环队列
 * 641MyCircularDeque.cpp 双端循环队列 
-* 238ProductExceptSelf.cpp 除自身以外数组的乘积
-* 94InorderTraversal.cpp 二叉树的中序遍历
 * 717IsOneBitCharacter 最后一个字符是否必定为一个一比特字符
-* 258AddDigits 给定一个非负整数 num，反复将各个位上的数字相加，直到结果为一位数
+* 933RecentCounter.cpp 最近的请求次数
 
 ## PrinciplesOfComputerComposition
 
