@@ -1,27 +1,26 @@
 #include "Predefine.h"
-extern int g_nCount;
 extern std::vector<ElemTp> List;
 
-// ½«¶ş²æÊ÷°´ÕÕÊ÷ĞÎÊä³ö
+// å°†äºŒå‰æ ‘æŒ‰ç…§æ ‘å½¢è¾“å‡º
 void printTree(std::vector<ElemTp> tree)
 {
-    int tree_size = tree.size();// Ê÷µÄ½ÚµãÊıÄ¿
+    int tree_size = tree.size();// æ ‘çš„èŠ‚ç‚¹æ•°ç›®
     if(!tree_size)
     {
         exit(0);
     }
-    int size_format[4] = {40,30,25,22};  // Ã¿Ò»ĞĞµÄÆğÊ¼Î»ÖÃ
-    int size_space[4] = {40,20,10,4};    // Á½¸ö"|"Ö®¼äµÄ¿Õ¸ñÊı
-    std::string symbol[4] = {"____________________","__________","_____","___"}; // Ê÷µÄĞÎ×´¿ØÖÆ·û
-    int size_interval[4] = {20,10,5,3};   // Ã¿¸ö½ÚµãºáÏòÖ¦µÄ¾àÀë
-    int layer_number = log(tree_size+1)/log(2); // ¼ÇÂ¼Ê÷µÄ²ãÊı
-    std::cout << std::setw(61) << List.at(0) << std::endl;// Êä³öµÚÒ»²ã
-    int number = 1; // ¼ÇÂ¼ÒÑ¾­±»·ÃÎÊµÄ½ÚµãÊı
+    int size_format[4] = {40,30,25,22};  // æ¯ä¸€è¡Œçš„èµ·å§‹ä½ç½®
+    int size_space[4] = {40,20,10,4};    // ä¸¤ä¸ª"|"ä¹‹é—´çš„ç©ºæ ¼æ•°
+    std::string symbol[4] = {"____________________","__________","_____","___"}; // æ ‘çš„å½¢çŠ¶æ§åˆ¶ç¬¦
+    int size_interval[4] = {20,10,5,3};   // æ¯ä¸ªèŠ‚ç‚¹æ¨ªå‘æçš„è·ç¦»
+    int layer_number = log(tree_size+1)/log(2); // è®°å½•æ ‘çš„å±‚æ•°
+    std::cout << std::setw(61) << List.at(0) << std::endl;// è¾“å‡ºç¬¬ä¸€å±‚
+    int number = 1; // è®°å½•å·²ç»è¢«è®¿é—®çš„èŠ‚ç‚¹æ•°
     int *dp = new int[128];
     // std::cout << layer_number <<std::endl;
     for(int i=2;i<layer_number;i++)
     {
-        // Çó³öÊ÷µÄ½Ó½ÚµãÎ»ÖÃĞÅÏ¢
+        // æ±‚å‡ºæ ‘çš„æ¥èŠ‚ç‚¹ä½ç½®ä¿¡æ¯
         for(int j=1;j<=pow(2,i-1);j++)
         {
             if(List.at(number)!='#')
@@ -34,18 +33,18 @@ void printTree(std::vector<ElemTp> tree)
             number++;
         }
 
-        // Êä³ö¶ş²æÊ÷µÄÊ÷Ö¦·ûºÅ
+        // è¾“å‡ºäºŒå‰æ ‘çš„æ ‘æç¬¦å·
         std::cout << std::setw(size_format[i-2])<<' ';
         for(int k=1;k<=pow(2,i-1);k += 2)
         {
-            // ÉÏ¸ö½ÚµãÓĞÁ½¸ö¶ù×ÓµÄ¸ñÊ½
+            // ä¸Šä¸ªèŠ‚ç‚¹æœ‰ä¸¤ä¸ªå„¿å­çš„æ ¼å¼
             if(dp[k-1] && dp[k])
             {
                 std::cout << symbol[i-2]+"|"+symbol[i-2];
                 std::cout << std::setw(size_space[i-2]-1) << " ";
                 continue;
             }
-            // ÉÏ¸ö½ÚµãÓĞ×ó¶ù×ÓµÄ¸öÊı
+            // ä¸Šä¸ªèŠ‚ç‚¹æœ‰å·¦å„¿å­çš„ä¸ªæ•°
             else if(dp[k-1])
             {
                 std::cout << symbol[i-2]+"|";
@@ -53,7 +52,7 @@ void printTree(std::vector<ElemTp> tree)
                 std::cout << std::setw(size_space[i-2]) << " ";
                 continue;
             }
-            // ÉÏ¸ö½ÚµãÓĞÓÒ¶ù×ÓµÄ¸ñÊ½
+            // ä¸Šä¸ªèŠ‚ç‚¹æœ‰å³å„¿å­çš„æ ¼å¼
             else if(dp[k])
             {
                 std::cout << std::setw(size_interval[i-2]) << " ";
@@ -61,19 +60,19 @@ void printTree(std::vector<ElemTp> tree)
                 std::cout << std::setw(size_space[i-2]-1) << " ";
                 continue;
             }
-            // ÉÏ¸ö½ÚµãÃ»¶ù×ÓµÄ¸ñÊ½
+            // ä¸Šä¸ªèŠ‚ç‚¹æ²¡å„¿å­çš„æ ¼å¼
             else{
                 std::cout << std::setw(size_interval[i-2]*2) << " ";
                 std::cout << std::setw(size_space[i-2]-1) << " ";
             }
         }
-        std::cout << std::endl; // Êä³öÒ»ĞĞËùÓĞ·ûºÅÖ®ºó¹â±ê»»µ½ÏÂÒ»ĞĞ
+        std::cout << std::endl; // è¾“å‡ºä¸€è¡Œæ‰€æœ‰ç¬¦å·ä¹‹åå…‰æ ‡æ¢åˆ°ä¸‹ä¸€è¡Œ
 
         /***************************************************************
-          ÒÔÏÂµÄÑ­»·¶¼ÊÇÎªÁË¿ØÖÆ¶ş²æÊ÷µÄ¸ñÊ½£¬´úÂë×¢ÊÍÓëÉÏÃæÑ­»·ÀàËÆ
+          ä»¥ä¸‹çš„å¾ªç¯éƒ½æ˜¯ä¸ºäº†æ§åˆ¶äºŒå‰æ ‘çš„æ ¼å¼ï¼Œä»£ç æ³¨é‡Šä¸ä¸Šé¢å¾ªç¯ç±»ä¼¼
          **************************************************************/
 
-        // Êä³ö¶ş²æÊ÷½Úµã¶¥²¿µÄ"|"·ûºÅ
+        // è¾“å‡ºäºŒå‰æ ‘èŠ‚ç‚¹é¡¶éƒ¨çš„"|"ç¬¦å·
         std::cout << std::setw(size_format[i-2])<<' ';
         for(int j=1;j<=pow(2,i-1);j+=2)
         {
@@ -106,7 +105,7 @@ void printTree(std::vector<ElemTp> tree)
         }
         std::cout << std::endl;
 
-        // Êä³ö¶ş²æÊ÷½Úµã
+        // è¾“å‡ºäºŒå‰æ ‘èŠ‚ç‚¹
         int temp = number - pow(2,i-1);
         std::cout << std::setw(size_format[i-2])<<' ';
         for(int j=1;j<=pow(2,i-1);j+=2)
