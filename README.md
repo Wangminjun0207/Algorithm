@@ -31,6 +31,7 @@
 * TestCodeBlocks （用来学习code::blocks的练习代码）
 * LargeNumberMultiplication 两个大数的乘法
 * OrderBinaryTree 使用先序、中序、后序、层次遍历二叉树
+* BinaryTreeGraphicFormatOutput 先序遍历建立二叉树，以树状图形输出二叉树
   
 ## AlgorithmAnalysisAndDesign
 
