@@ -9,14 +9,14 @@ void printTree(std::vector<ElemTp> tree)
     {
         exit(0);
     }
-    int size_format[4] = {40,30,25,22};  // 每一行的起始位置
-    int size_space[4] = {40,20,10,4};    // 两个"|"之间的空格数
-    std::string symbol[4] = {"____________________","__________","_____","___"}; // 树的形状控制符
-    int size_interval[4] = {20,10,5,3};   // 每个节点横向枝的距离
+    int size_format[5] = {40,30,25,22,21};  // 每一行的起始位置
+    int size_space[5] = {40,20,10,4,3};     // 两个"|"之间的空格数
+    std::string symbol[5] = {"____________________","__________","_____","___","_"}; // 树的形状控制符
+    int size_interval[5] = {20,10,5,3,1};   // 每个节点横向枝的距离
     int layer_number = log(tree_size+1)/log(2); // 记录树的层数
     std::cout << std::setw(61) << List.at(0) << std::endl;// 输出第一层
     int number = 1; // 记录已经被访问的节点数
-    int *dp = new int[128];
+    int *dp = new int[32];
     // std::cout << layer_number <<std::endl;
     for(int i=2;i<layer_number;i++)
     {
