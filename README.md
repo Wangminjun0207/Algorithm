@@ -31,7 +31,7 @@
 * TestCodeBlocks （用来学习code::blocks的练习代码）
 * LargeNumberMultiplication 两个大数的乘法
 * OrderBinaryTree 使用先序、中序、后序、层次遍历二叉树
-* BinaryTreeGraphicFormatOutput 先序遍历建立二叉树，以树状图形输出二叉树
+* BinaryTreeGraphicFormatOutput 先序遍历建立二叉树，以树状图形输出二叉树，可以输出六层二叉树
   
 ## AlgorithmAnalysisAndDesign
 
@@ -67,9 +67,10 @@
 
 ## PrinciplesOfComputerComposition
 
-* homework1.cpp
-* homework2.cpp
-* homework4.c
+* homework1.cpp 查看十进制+36和-36的8位补码和32位补码的十六进制机器数
+* homework2.cpp 查看浮点数的内存存储方式
+* homework3.c 查看定点数和浮点数运算结果是否溢出
+* homework4.c 查看多字节数据结构的存储方式
     
 ## 后记
 
