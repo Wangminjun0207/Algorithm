@@ -38,7 +38,7 @@
 
 * BegReverseOrderCount   用分治法求逆序对
 * Fibfunction  求斐波那契数列
-* GrayCode  分治法实现格码
+* GrayCode  分治法实现格雷码
 * IsSameBinaryTree 判断是否两个二叉树相同
 * QuickSort 快速排序算法
 * MissileInterception 使用动态规划拦截导弹算法
