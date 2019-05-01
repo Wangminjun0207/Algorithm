@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int chooseSpace(char *buf, int len, char *cur)
+int chooseSpace(char *buf, int *len, char *cur)
 {
     /** 处理源代码里面的空格 */
     int it_buf, it_cur; // buf 和 cur 的迭代器
     it_buf = it_cur = 0;
-    while(it_buf<len)
+    while(it_buf<*len)
     {
         if(buf[it_buf]!=' ')
         {
@@ -25,12 +25,12 @@ int chooseSpace(char *buf, int len, char *cur)
     return it_cur;
 }
 
-int chooseComment(char *buf, int len, char *cur)
+int chooseComment(char *buf, int *len, char *cur)
 {
     /** 处理源代码里面的注释 */
     int it_buf, it_cur; // buf 和 cur 的迭代器
     it_buf = it_cur = 0;
-    while(it_buf<len)
+    while(it_buf<*len)
     {
         // 处理多行注释
         if(buf[it_buf]=='/' && buf[it_buf+1]=='*')
@@ -65,12 +65,12 @@ int chooseComment(char *buf, int len, char *cur)
     return it_cur;
 }
 
-int chooseControl(char *buf, int len, char *cur)
+int chooseControl(char *buf, int *len, char *cur)
 {
     /** 处理源代码里面的制表符 */
     int it_buf, it_cur; // buf 和 cur 的迭代器
     it_buf = it_cur = 0;
-    while(it_buf<len)
+    while(it_buf<*len)
     {
         while(buf[it_buf]=='\r' || buf[it_buf]=='\n' || buf[it_buf]=='\t')
         {
@@ -105,14 +105,10 @@ int preprocess(char *buf, int *len, char *cur)
     }
     buf[*len] = '\0';
     fclose(fp);
-    printf("%s\n",buf); // 要删除
 
-    *len = chooseSpace(buf,*len,cur);
-    printf("%s\n",cur); // 要删除
-    *len = chooseComment(cur,*len,buf);
-    printf("%s\n",buf); // 要删除
-    *len = chooseControl(buf,*len,cur);
-    printf("%s\n",cur); // 要删除
+    *len = chooseSpace(buf,len,cur);
+    *len = chooseComment(cur,len,buf);
+    *len = chooseControl(buf,len,cur);
     // 处理后的字符串输出到文件
     FILE *p;
     if((p=fopen("ProcessAfter.txt","w"))==NULL)

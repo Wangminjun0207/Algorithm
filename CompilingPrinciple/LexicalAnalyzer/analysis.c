@@ -4,7 +4,7 @@
 #define COUNT 60
 int analysis(char *buf, int *len)
 {
-    char syn[COUNT][10] = {"include","auto","double","int","struct",
+    char syn[COUNT][15] = {"include","auto","double","int","struct",
                       "break","else","long","switch","case",
                       "enum","register","typedef","char","extern",
                       "return","union","const","float","short",
@@ -16,14 +16,14 @@ int analysis(char *buf, int *len)
                       "==","<=",">=",">","main",
                       "!=","!","->",".","#",
                       "%","[","]","{","}"};
-    char Token[2048][30]; // 存储单词
+    char Token[*len][30]; // 存储单词
     char sty[30]; // 存储临时单词
     char *p, *q;
     p = buf;
     int it_i = 0; // Token迭代器
     int it_m = 0; // syn迭代器
     int flag1 = 1, flag2 = 1; // 用作标识
-    printf("words  key_word  code \n");
+    printf("words          key_word       code \n");
     while(*p!='\0')
     {
         /** 单词处理*/
@@ -49,11 +49,11 @@ int analysis(char *buf, int *len)
             // 输出关键字
             if(it_m<COUNT)
             {
-                printf("%s\t%s\t%d\n",Token[it_i],syn[it_m],it_m);
+                printf("%-15s%-15s%-15d\n",Token[it_i],syn[it_m],it_m);
             }
             else
             {
-                printf("%s\t ID \t39\n",Token[it_i]);
+                printf("%-15s%-15s%-15s\n",Token[it_i],"ID","39");
             }
             it_i++;
             continue;
@@ -88,7 +88,7 @@ int analysis(char *buf, int *len)
             }
             *q = '\0';
             strcpy(Token[it_i],sty);
-            printf("%s\t NUM \t40\n",Token[it_i]);
+            printf("%-15s%-15s%-15s\n",Token[it_i],"NUM","40");
             it_i++;
             flag1 = flag2 = 1; // 重置标识变量
             continue;
@@ -120,7 +120,7 @@ int analysis(char *buf, int *len)
             // 输出关键字
             if(it_m<COUNT)
             {
-                printf("%s\t%s\t%d\n",Token[it_i],syn[it_m],it_m);
+                printf("%-15s%-15s%-15d\n",Token[it_i],syn[it_m],it_m);
             }
             it_i++;
             continue;
@@ -147,7 +147,7 @@ int analysis(char *buf, int *len)
             // 输出关键字
             if(it_m<COUNT)
             {
-                printf("%s\t%s\t%d\n",Token[it_i],syn[it_m],it_m);
+                printf("%-15s%-15s%-15d\n",Token[it_i],syn[it_m],it_m);
             }
             it_i++;
             continue;

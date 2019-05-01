@@ -12,5 +12,6 @@ int main()
     {
         analysis(cur,&len);
     }
+    printf("total : %d\n",len);
     return 0;
 }
