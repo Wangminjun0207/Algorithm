@@ -90,7 +90,10 @@ int preprocess(char *buf, int *len, char *cur)
         buf[len++] = ch;
         ch = scanf("%c",&ch);
     }*/
-    FILE *fp = fopen("data.txt","r+");
+	printf("please input file name:");
+	char file_name[30];
+	scanf("%s",file_name);
+    FILE *fp = fopen(file_name,"r+");
     if(fp==NULL)
     {
         printf("can not open \"data.txt\".\n");
