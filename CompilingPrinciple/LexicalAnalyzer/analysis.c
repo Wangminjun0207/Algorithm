@@ -19,7 +19,7 @@ int analysis(char *buf, int *len)
     char Token[*len][30]; // ¥Ê¥¢µ•¥ 
     char sty[30]; // ¥Ê¥¢¡Ÿ ±µ•¥ 
     char *p, *q;
-    FILE  *fp = fopen("target_file.c","w");
+    FILE  *fp = fopen("target_file.txt","w");
     if(fp==NULL)
     {
         printf("can not open \"target_file\".\n");
