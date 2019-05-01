@@ -152,6 +152,7 @@ int analysis(char *buf, int *len)
             it_i++;
             continue;
         }
+        p++;
     }
     return 0;
 }
