@@ -1,7 +1,7 @@
 #include "Predefine.h"
 #include <string.h>
-extern BiT createBiTree();
-extern void preorderTree();
+extern BiT createBiTree(char *preorder, char *midorder, int *i, int first, int last);
+extern void preorderTree(const BiT bt);
 int main()
 {
 	int i = 0;
