@@ -33,6 +33,7 @@
 * OrderBinaryTree 使用先序、中序、后序、层次遍历二叉树
 * BinaryTreeGraphicFormatOutput 先序遍历建立二叉树，以树状图形输出二叉树，可以输出六层二叉树
 * SortAlgorithm 一些常见的排序算法
+* CreateWithPreorderAndMidorderArray 用先序遍历序列和中序遍历序列唯一确定二叉树
   
 ## AlgorithmAnalysisAndDesign
 
@@ -72,6 +73,7 @@
 * homework2.cpp 查看浮点数的内存存储方式
 * homework3.c 查看定点数和浮点数运算结果是否溢出
 * homework4.c 查看多字节数据结构的存储方式
+* homework5.cpp 查看函数调用时的寄存器和局部变量内存地址
     
 ## 后记
 
