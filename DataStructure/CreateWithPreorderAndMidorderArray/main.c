@@ -13,5 +13,6 @@ int main()
 	scanf("%s",midorder);
 	BiT bt = createBiTree(preorder,midorder,&i,0,strlen(preorder)-1);
 	preorderTree(bt);
+	printf("\n");
 	return 0;
 }
