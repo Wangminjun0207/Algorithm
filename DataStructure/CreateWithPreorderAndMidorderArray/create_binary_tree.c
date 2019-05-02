@@ -10,12 +10,13 @@ BiT createBiTree(char *preorder, char *midorder, int *i, int first, int last)
 	  */
 	 BiT bt;
 	 int it;
-	 if(first>last) 
+	 if(first>last)
 	 {
 		 return NULL;
 	 }
 	 bt = (BiT)malloc(sizeof(BiTree));
-	 bt->data = preorder[*i++];
+	 bt->data = preorder[*i];
+	 *i += 1;
 	 for(it=first;it<=last;it++)
 	 {
 		 if(midorder[it]==bt->data)

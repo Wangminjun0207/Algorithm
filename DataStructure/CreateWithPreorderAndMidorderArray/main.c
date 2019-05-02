@@ -1,6 +1,7 @@
 #include "Predefine.h"
 #include <string.h>
-extern BiT createBiTree(char *preorder, char *midorder, int *i, int first, int last);
+extern BiT createBiTree();
+extern void preorderTree();
 int main()
 {
 	int i = 0;
@@ -10,6 +11,7 @@ int main()
 	printf("please input midorder array:");
 	char midorder[64];
 	scanf("%s",midorder);
-	createBiTree(preorder,midorder,&i,0,strlen(preorder)-1);
+	BiT bt = createBiTree(preorder,midorder,&i,0,strlen(preorder)-1);
+	preorderTree(bt);
 	return 0;
 }
