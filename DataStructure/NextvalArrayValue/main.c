@@ -20,7 +20,7 @@ void getNextval(char *p_nextval, int nextval[])
 
 int main()
 {
-	char a[5] = "aaab";
+	char a[10] = "aaabaa";
 	char t[10] = "abcabaa";
 	char u[25] = "abcaabbabcabaacbacba";
 	int a_nextval[5];
