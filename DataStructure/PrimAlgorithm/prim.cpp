@@ -57,6 +57,7 @@ void prim(Network G, int k)
     std::cout << "最小生成树边上权重之和：" << sum << std::endl;
     delete []closedge; */
 
+    int sum = 0; // 最小生成树边的权值之和
     for(int it=0;it<G.n-1;it++)
     {
         int min_w = INF; // 最小权值
@@ -70,7 +71,7 @@ void prim(Network G, int k)
             }
         }
         std::cout << "(" << closedge[k].vex << "," << k << ")" << "-" << min_w << std::endl; // 输出权值最小边
-
+        sum += closedge[k].lowcost;
         // 修改closedge数组内容
         for(int i=0;i<G.n;i++)
         {
@@ -81,5 +82,6 @@ void prim(Network G, int k)
             }
         }
     }
+    std::cout << "最小生成树边的权值之和：" << sum << std::endl;
     delete []closedge;
 }
