@@ -3,7 +3,8 @@
 #include <fstream>
 
 void test(DAGGraph graph, int k, int a[], int num);
-int count = 2; // 标志变量，为假舍弃递归结果
+int flag; // 标志变量，为假舍弃递归结果
+int count = 0; // 标志变量，count>=graph.n时，证明graph是DAG
 std::ofstream file;
 
 bool TopoSort(DAGGraph &graph)
@@ -28,13 +29,15 @@ bool TopoSort(DAGGraph &graph)
         }
     }
 
-    /*****************************************
+    /******************************************************
      * 以下代码只能输出一个DAG拓扑排序序列
+     int count = 0;
     while(S.size())
     {
         // 输出该节点并且退栈
         i = S.back();
         std::cout << i << "  ";
+        count++;
         S.pop_back();
         for(p=graph.h[i].firstarc;p;p=p->next)
         {
@@ -45,6 +48,13 @@ bool TopoSort(DAGGraph &graph)
             }
         }
     }
+    file.close();
+    // 如果一次都没有排序成功，返回false， 否则返回true
+    if(count<graph.n)
+    {
+        return false; // 不是DAG
+    }
+    return true;
     ********************************************************/
 
     int a[graph.n]; // 存放拓扑排序结果
@@ -57,14 +67,14 @@ bool TopoSort(DAGGraph &graph)
         S.pop_back();
         test(graph,k,a,0);
     }
-
+    std::cout << "所有拓扑排序的数目：" << count/graph.n << std::endl;
+    file << "所有拓扑排序的数目：" << count/graph.n << std::endl;
     file.close();
-    // 如果一次都没有排序成功，返回false， 否则返回true
-    if(count==2)
+    if(count>=graph.n)
     {
-        return false; // 不是DAG
+        return true;
     }
-    return true;
+    return false;
 }
 
 void test(DAGGraph graph, int k, int a[], int num)
@@ -107,19 +117,20 @@ void test(DAGGraph graph, int k, int a[], int num)
     // 栈不空时继续递归进行拓扑排序
     while(S.size())
     {
-        count = 1;
+        flag = 1;
         test(graph,S.back(),a,num);
         S.pop_back();
-        for(int j=0;j<graph.n&&count;j++)
+        for(int j=0;j<graph.n&&flag;j++)
         {
             std::cout << a[j] << " ";
             file << a[j] << " ";
+            count++;
         }
-        if(count)
+        if(flag)
         {
             std::cout << std::endl;
             file << "\n";
         }
-        count = 0;// 递归重复结果舍弃
+        flag = 0;// 递归重复结果舍弃
     }
 }

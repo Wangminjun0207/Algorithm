@@ -2,7 +2,7 @@
 #define PREDEFINE_H_
 
 #include <iostream>
-#define MAX_N 10 // 最大节点数
+#define MAX_N 20 // 最大节点数
 
 // 邻接表节点数据结构
 typedef struct node{
