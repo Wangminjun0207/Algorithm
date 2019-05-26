@@ -35,6 +35,8 @@
 * SortAlgorithm 一些常见的排序算法
 * CreateWithPreorderAndMidorderArray 用先序遍历序列和中序遍历序列唯一确定二叉树
 * PrimAlgorithm Prim算法求有权图的最小生成树
+* TopologicalSort 输出DAG所有拓扑排序序列
+* TraversalGraphs 图的深度优先搜索和广度优先搜索
   
 ## AlgorithmAnalysisAndDesign
 
