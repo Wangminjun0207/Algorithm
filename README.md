@@ -49,6 +49,7 @@
 * LongestIncrementalSubsequence 求最长的升序子序列
 * CrossLinkedListStorageOfDigraph 从文件读入节点信息建立十字链表存储有向图
 * NumberTower 动态规划求解数塔最优解
+* DigitalTriangle 动态规划求数字三角形最优解，空间复杂度最小
       
 ## LeetCode
 
