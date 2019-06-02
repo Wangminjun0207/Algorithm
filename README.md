@@ -60,6 +60,8 @@
 * 94InorderTraversal.cpp 二叉树的中序遍历
 * 121MaxProfit.c 求得股票购买的的最大利润(C语言代码)
 * 121MaxProfit.cpp 求得股票购买的的最大利润(C++代码)
+* 225Stack.cpp 用队列实现栈
+* 232MyQueue.cpp 用栈实现队列
 * 238ProductExceptSelf.cpp 除自身以外数组的乘积
 * 258AddDigits 给定一个非负整数 num，反复将各个位上的数字相加，直到结果为一位数
 * 271RemoveElement.cpp 移除数组中的指定元素，返回新数组长度
