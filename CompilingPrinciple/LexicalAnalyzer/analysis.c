@@ -17,7 +17,6 @@ int analysis(char *buf, int *len)
                       "!=","!","->",".","#",
                       "%","[","]","{","}"};
     char Token[*len][30]; // ¥Ê¥¢µ•¥ 
-    printf("len=%d",*len);
     char sty[30]; // ¥Ê¥¢¡Ÿ ±µ•¥ 
     char *p, *q;
     FILE  *fp = fopen("target_file.txt","w");

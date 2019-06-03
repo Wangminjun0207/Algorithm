@@ -56,6 +56,7 @@
 * 1TwoSum.c 给定一个整数数组 nums 和一个目标值 target，找出和为目标值的那两个整数，并返回数组下标
 * 2TwoNumbersAdd.c 逆序存在两个数组中的数值相加
 * 66PlusOne.cpp 给存在数组中的数字加一
+* 69MySqrt.cpp x的平方根
 * 70ClimbStairs 每次可以爬一阶或者两阶楼梯，给出爬n阶的所有方案数目
 * 94InorderTraversal.cpp 二叉树的中序遍历
 * 121MaxProfit.c 求得股票购买的的最大利润(C语言代码)
@@ -74,6 +75,7 @@
 * 641MyCircularDeque.cpp 双端循环队列 
 * 717IsOneBitCharacter 最后一个字符是否必定为一个一比特字符
 * 933RecentCounter.cpp 最近的请求次数
+* 1047RemoveDuplicates.cpp 删除字符串中的所有相邻重复项
 
 ## PrinciplesOfComputerComposition
 
