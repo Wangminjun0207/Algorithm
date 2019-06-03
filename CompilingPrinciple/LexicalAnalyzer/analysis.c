@@ -17,6 +17,7 @@ int analysis(char *buf, int *len)
                       "!=","!","->",".","#",
                       "%","[","]","{","}"};
     char Token[*len][30]; // 存储单词
+    printf("len=%d",*len);
     char sty[30]; // 存储临时单词
     char *p, *q;
     FILE  *fp = fopen("target_file.txt","w");
@@ -29,8 +30,7 @@ int analysis(char *buf, int *len)
     int it_i = 0; // Token迭代器
     int it_m = 0; // syn迭代器
     int flag1 = 1, flag2 = 1; // 用作标识
-    //printf("words          key_word       code \n");
-    fprintf(fp,"words          key_word       code \n");
+    // printf("words          key_word       code \n");
     while(*p!='\0')
     {
         /** 单词处理*/
@@ -56,13 +56,13 @@ int analysis(char *buf, int *len)
             // 输出关键字
             if(it_m<COUNT)
             {
-                //printf("%-15s%-15s%-15d\n",Token[it_i],syn[it_m],it_m);
-                fprintf(fp,"%-15s%-15s%-15d\n",Token[it_i],syn[it_m],it_m);
+                // printf("%-15s%-15s%-15d\n",Token[it_i],syn[it_m],it_m);
+                fprintf(fp,"( %-15s,%-3d)\n",Token[it_i],it_m);
             }
             else
             {
-                //printf("%-15s%-15s%-15s\n",Token[it_i],"ID","39");
-                fprintf(fp,"%-15s%-15s%-15s\n",Token[it_i],"ID","39");
+                // printf("%-15s%-15s%-15s\n",Token[it_i],"ID","39");
+                fprintf(fp,"( %-15s,%-3s)\n",Token[it_i],"39");
             }
             it_i++;
             continue;
@@ -97,8 +97,8 @@ int analysis(char *buf, int *len)
             }
             *q = '\0';
             strcpy(Token[it_i],sty);
-            //printf("%-15s%-15s%-15s\n",Token[it_i],"NUM","40");
-            fprintf(fp,"%-15s%-15s%-15s\n",Token[it_i],"NUM","40");
+            // printf("%-15s%-15s%-15s\n",Token[it_i],"NUM","40");
+            fprintf(fp,"( %-15s,%-3s)\n",Token[it_i],"40");
             it_i++;
             flag1 = flag2 = 1; // 重置标识变量
             continue;
@@ -131,7 +131,7 @@ int analysis(char *buf, int *len)
             if(it_m<COUNT)
             {
                 //printf("%-15s%-15s%-15d\n",Token[it_i],syn[it_m],it_m);
-                fprintf(fp,"%-15s%-15s%-15d\n",Token[it_i],syn[it_m],it_m);
+                fprintf(fp,"( %-15s,%-3d)\n",Token[it_i],it_m);
             }
             it_i++;
             continue;
@@ -159,7 +159,7 @@ int analysis(char *buf, int *len)
             if(it_m<COUNT)
             {
                 //printf("%-15s%-15s%-15d\n",Token[it_i],syn[it_m],it_m);
-                fprintf(fp,"%-15s%-15s%-15d\n",Token[it_i],syn[it_m],it_m);
+                fprintf(fp,"( %-15s,%-3d)\n",Token[it_i],it_m);
             }
             it_i++;
             continue;
