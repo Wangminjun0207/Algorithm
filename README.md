@@ -37,6 +37,7 @@
 * PrimAlgorithm Prim算法求有权图的最小生成树
 * TopologicalSort 输出DAG所有拓扑排序序列
 * TraversalGraphs 图的深度优先搜索和广度优先搜索
+* BinarySortTree 二叉排序树的建立，删除，插入，搜索
   
 ## AlgorithmAnalysisAndDesign
 
