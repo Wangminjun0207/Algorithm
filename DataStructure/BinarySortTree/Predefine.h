@@ -2,6 +2,7 @@
 #define PREDEFINE_H_
 #include <iostream>
 #include <cstdlib>
+#include <vector>
 
 // 节点数据结构
 typedef struct node

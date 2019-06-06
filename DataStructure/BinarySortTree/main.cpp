@@ -2,7 +2,7 @@
 #include "Predefine.h"
 extern int Insert(BST &bt, BST p);
 extern BST CreateBST(int arr[], int n);
-extern BST Search(BST bt, int k);
+extern std::vector<BST> Search(BST bt, int k);
 extern int Delete(BST bt, int k);
 extern void Preorder(BST bt);
 
@@ -19,13 +19,13 @@ int main()
     Insert(bt,p);
     Preorder(bt);
     std::cout << std::endl;
-    Delete(bt,21);
+    Delete(bt,3333);
     Preorder(bt);
     std::cout << std::endl;
-    bt = Search(bt,44);
-    if(bt)
-        std::cout << "search 3333 :" << bt->key << std::endl;
+    std::vector<BST> result = Search(bt,20);
+    if(result.at(0))
+        std::cout << "search:" << result.at(0)->key << std::endl;
     else
-        std::cout << "search 3333 : fail" << std::endl;
+        std::cout << "search: fail" << std::endl;
     return 0;
 }
