@@ -9,8 +9,8 @@ extern void Preorder(BST bt);
 
 int main()
 {
-    int arr[3] = {21, 23,/* 0, -8, 78, 1000, 45, -99, 88, */-1111};
-    BST bt = CreateBST(arr,3);
+    int arr[10] = {21, 23, 0, -8, 78, 1000, 45, -99, 88, -1111};
+    BST bt = CreateBST(arr,10);
     Preorder(bt);
     std::cout << std::endl;
     BST p = new BSTNode();
@@ -22,7 +22,7 @@ int main()
     Delete(bt,3333);
     Preorder(bt);
     std::cout << std::endl;
-    std::vector<BST> result = Search(bt,20);
+    std::vector<BST> result = Search(bt,1000);
     if(result.at(0))
         std::cout << "search:" << result.at(0)->key << std::endl;
     else
