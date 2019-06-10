@@ -39,6 +39,7 @@
 * TraversalGraphs 图的深度优先搜索和广度优先搜索
 * BinarySortTree 二叉排序树的建立，删除，插入，搜索
 * BinarySearch 二分查找
+* B-Tree B-排序树
   
 ## AlgorithmAnalysisAndDesign
 
@@ -52,6 +53,7 @@
 * CrossLinkedListStorageOfDigraph 从文件读入节点信息建立十字链表存储有向图
 * NumberTower 动态规划求解数塔最优解
 * DigitalTriangle 动态规划求数字三角形最优解，空间复杂度最小
+* MergeSort 归并排序
       
 ## LeetCode
 
