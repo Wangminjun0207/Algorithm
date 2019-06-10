@@ -54,6 +54,7 @@
 * NumberTower 动态规划求解数塔最优解
 * DigitalTriangle 动态规划求数字三角形最优解，空间复杂度最小
 * MergeSort 归并排序
+* Labyrinth 走迷宫
       
 ## LeetCode
 
