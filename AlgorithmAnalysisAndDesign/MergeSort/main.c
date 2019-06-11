@@ -3,7 +3,7 @@
 extern void MergerSort(int r[], int r1[], int s, int t);
 int main()
 {
-    int a[10] = {87,-99,50,0,32,-69,-99,5,56,88};
+    int a[10] = {87,-99,50,1,32,-69,-100,5,56,88};
     int b[10];
     MergerSort(a,b,0,9);
     int i = 0;
