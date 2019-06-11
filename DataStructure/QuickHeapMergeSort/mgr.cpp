@@ -33,7 +33,7 @@ void Mgr()
 
     std::ofstream output;
     output.open("output.txt",std::ios::app);
-    // ²âÊÔ¹é²¢ÅÅĞò
+    // æµ‹è¯•å½’å¹¶æ’åº
     output << "Original array: ";
     output.close();
     Print(arr_m,10);
@@ -43,7 +43,7 @@ void Mgr()
     output.close();
     Print(arr_m,10);
 
-    // ²âÊÔ¿ìËÙÅÅĞò
+    // æµ‹è¯•å¿«é€Ÿæ’åº
     output.open("output.txt",std::ios::app);
     output << "Original array: ";
     output.close();
@@ -54,7 +54,7 @@ void Mgr()
     output.close();
     Print(arr_q,10);
 
-    // ²âÊÔ¶ÑÅÅĞò
+    // æµ‹è¯•å †æ’åº
     output.open("output.txt",std::ios::app);
     output << "Original array: ";
     output.close();
