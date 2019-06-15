@@ -40,6 +40,12 @@
 * BinarySortTree 二叉排序树的建立，删除，插入，搜索
 * BinarySearch 二分查找
 * B-Tree B-排序树
+* QuickHeapMergeSort 快速排序、归并排序、堆排序
+* LinkedSort 链表关键字排序
+* CardinalSort 基数排序(十六进制分组）
+* AverageBinarySortTree 平衡二叉排序树建立、中序遍历
+* RecursiveBubbleSortAndInsertSort 对冒泡排序和插入排序的递归实现
+* ImprovedInsertSort 改进插入排序。内层使用二分查找
   
 ## AlgorithmAnalysisAndDesign
 
