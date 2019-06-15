@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="CardinalSort" />
+		<Option title="RecursiveBubbleSortAndInsertSort" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/CardinalSort" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/RecursiveBubbleSortAndInsertSort" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -16,7 +16,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/CardinalSort" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/RecursiveBubbleSortAndInsertSort" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -32,11 +32,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="Predefine.h" />
-		<Unit filename="cardinal_sort.cpp" />
-		<Unit filename="create_link.cpp" />
+		<Unit filename="bubble_sort.cpp" />
+		<Unit filename="insert_sort.cpp" />
 		<Unit filename="main.cpp" />
-		<Unit filename="print.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
