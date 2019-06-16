@@ -61,6 +61,7 @@
 * DigitalTriangle 动态规划求数字三角形最优解，空间复杂度最小
 * MergeSort 归并排序
 * Labyrinth 走迷宫
+* ShortestAverageWaitTime 贪心法求用户最短平均等待时间
       
 ## LeetCode
 
