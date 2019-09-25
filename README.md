@@ -67,6 +67,7 @@
 
 * 1TwoSum.c 给定一个整数数组 nums 和一个目标值 target，找出和为目标值的那两个整数，并返回数组下标
 * 2TwoNumbersAdd.c 逆序存在两个数组中的数值相加
+* 19RemovNthNodeFromEndofList.cpp 删除链表的倒数第N个节点，返回头指针
 * 66PlusOne.cpp 给存在数组中的数字加一
 * 69MySqrt.cpp x的平方根
 * 70ClimbStairs 每次可以爬一阶或者两阶楼梯，给出爬n阶的所有方案数目
@@ -87,7 +88,9 @@
 * 641MyCircularDeque.cpp 双端循环队列 
 * 717IsOneBitCharacter 最后一个字符是否必定为一个一比特字符
 * 933RecentCounter.cpp 最近的请求次数
+* 938RangeSumOfBST.cpp 给定二叉搜索树的根结点 root，返回 L 和 R（含）之间的所有结点的值的和
 * 1047RemoveDuplicates.cpp 删除字符串中的所有相邻重复项
+* 1122RelativeSortArray.cpp 对 arr1 中的元素进行排序，使 arr1中项的相对顺序和 arr2 中的相对顺序相同。
 
 ## PrinciplesOfComputerComposition
 
